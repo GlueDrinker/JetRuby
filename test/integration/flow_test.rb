@@ -2,13 +2,13 @@ require "test_helper"
 class FlowTest < ActionDispatch::IntegrationTest
   test "can open new form" do
     
-    assert_generates "/", controller: "mail", action: "new"
+    assert_generates "/mail/new", controller: "mail", action: "new"
 
   end
 
   test "can start action create" do
     
-    assert_generates "/", controller: "mail", action: "create"
+    assert_generates "/mail/new", controller: "mail", action: "create"
 
   end
 
