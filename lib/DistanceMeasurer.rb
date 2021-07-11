@@ -1,5 +1,5 @@
 require 'open-uri'
-require 'JSON'
+require 'json'
 
 class DistanceMeasurer
 	attr_accessor :weight, :length, :width, :height, :distance, :price
