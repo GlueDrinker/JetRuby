@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   ActiveAdmin.routes(self)
-  root 'mail#new'
-  get '/new' => 'mail#new'
+  root 'mail#index'
+  get '/new' => 'mail#index'
   post '/' => 'mail#create'
   resources :mail
 
