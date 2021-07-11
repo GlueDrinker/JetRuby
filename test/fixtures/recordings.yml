@@ -1,0 +1,31 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+Ivan:
+  name: Ivan
+  surname: Ivanov
+  patronymic: Ivanovich
+  phone: 89651544631
+  email: gyei@mail.ru
+  weight: 100.0
+  length: 100.0
+  width: 100.0
+  height: 100.0
+  origin: Berlin
+  destination: London
+  distance: 1.5
+  price: 1.5
+
+Petr:
+  name: Petr
+  surname: Petrov
+  patronymic: Petrovich
+  phone: 89187279201
+  email: kolchuga-lev@mail.ru
+  weight: 1000.0
+  length: 1000.0
+  width: 1000.0
+  height: 1000.0
+  origin: London
+  destination: Moscow
+  distance: 1.5
+  price: 1.5

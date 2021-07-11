@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+	<%= form_for :request do |f| %>
+	<br>
+	<br>
+	<p>
+		Имя: <%= f.text_field :name, :required => true %><br>
+		Фамилия: <%= f.text_field :surname, :required => true  %><br>
+		Отчество: <%= f.text_field :patronymic, :required => true  %><br>
+		Телефон: <%= f.text_field :phone, :required => true  %><br>
+		Email: <%= f.text_field :email, :required => true  %><br>
+		Вес(кг): <%= f.text_field :weight, :required => true  %><br>
+		Длина(см): <%= f.text_field :length, :required => true  %><br>
+		Ширина(см): <%= f.text_field :width, :required => true  %><br>
+		Высота(см): <%= f.text_field :height, :required => true  %><br>
+		Пункт отправления(на английском): <%= f.text_field :origin, :required => true  %><br>
+		Пункт назначения(на английском): <%= f.text_field :destination, :required => true  %><br>
+		<%= f.submit "Рассчитать" %>
+	</p>
+	<% end %>
+</body>
+</html>
+	
