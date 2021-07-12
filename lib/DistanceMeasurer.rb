@@ -16,6 +16,8 @@ class DistanceMeasurer
 		result = JSON.parse(response)
 		@distance = result["rows"].first["elements"].first["distance"]["value"]
 		@distance = distance.to_f
+		@distance = @distance / 1000
+		@distance = @distance.round
 		if volume > 1000000
 			if @weight > 10
 				@price = distance * 3
